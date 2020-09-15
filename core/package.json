@@ -1,0 +1,17 @@
+{
+  "name": "@rpc-lib/core",
+  "version": "0.3.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
