@@ -1,0 +1,17 @@
+{
+  "name": "@rpc-lib/example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node -T src/app"
+  },
+  "dependencies": {
+    "@rpc-lib/ws": "^0.3.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.2.6"
+  }
+}
