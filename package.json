@@ -7,9 +7,9 @@
     "test": "node --test **/*.test.ts",
     "test-only": "node --test --test-only **/*.test.ts"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@types/node": "^22.13.7"
+    "@types/node": "^22.13.8",
+    "@types/ws": "^8.5.14"
   },
   "packageManager": "pnpm@10.5.2"
 }
