@@ -1,0 +1,15 @@
+{
+  "name": "rpc-lib",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test **/*.test.ts",
+    "test-only": "node --test --test-only **/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.13.7"
+  },
+  "packageManager": "pnpm@10.5.2"
+}
